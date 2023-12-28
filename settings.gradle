@@ -1,0 +1,3 @@
+rootProject.name = "dice"
+include ':app'
+include ':mylibrary'
