@@ -38,6 +38,9 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
 }
 
 afterEvaluate {
@@ -50,7 +53,7 @@ ext {
     publishedGroupId = 'io.github.xxmd'
     artifact = rootProject.name
     libraryVersion = '1.0.0'
-    libraryDescription = ''
+    libraryDescription = 'dice'
     siteUrl = 'https://github.com/xxmd/' + rootProject.name
 }
 
